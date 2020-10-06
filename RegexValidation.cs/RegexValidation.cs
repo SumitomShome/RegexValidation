@@ -23,13 +23,13 @@ namespace RegexUserValidation
             string lastName = Console.ReadLine();
             return Regex.IsMatch(lastName, LAST_NAME_REGEX);
         }
-       public bool ValidateEmail()
+        public bool ValidateEmail()
         {
             Console.WriteLine("Enter the email id: ");
             string email = Console.ReadLine();
             return Regex.IsMatch(email, EMAIL_REGEX);
         }
-       public bool ValidateMobileNumber()
+        public bool ValidateMobileNumber()
         {
             Console.WriteLine("Enter country code, then give space and then provide 10 digit mobile number: ");
             string mobile = Console.ReadLine();
