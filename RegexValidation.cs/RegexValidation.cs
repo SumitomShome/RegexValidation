@@ -39,7 +39,7 @@ namespace RegexUserValidation
         public bool ValidatePassword()
         {
             Console.WriteLine("Enter your password");
-            string password = Console.ReadLine();
+            ////string password = Console.ReadLine();
             return Regex.IsMatch(password, PASSWORD_REGEX);
         }
     }
